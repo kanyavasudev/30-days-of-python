@@ -32,9 +32,7 @@ store largest number from list to a variable
 >>> large=max(l2)
 >>> print(large)
 569
->>> print("store smallest number from list to a variable
-      
-SyntaxError: EOL while scanning string literal
+>>> print("store smallest number from list to a variable")
 >>> small=min(l2)
 >>> print(small)
 0
@@ -44,29 +42,11 @@ SyntaxError: EOL while scanning string literal
 >>> print("to create a tuple and print reverse of the created tuple")
 to create a tuple and print reverse of the created tuple
 >>> tuple1=(25,86.3,"harry","lizzi",52,62.1,44,7.56)
->>> reverse.tuple1
-Traceback (most recent call last):
-  File "<pyshell#27>", line 1, in <module>
-    reverse.tuple1
-NameError: name 'reverse' is not defined
->>> rev=reversed(tuple1)
->>> print(rev)
-<reversed object at 0x000002A49992D0A0>
->>> reversed(tuple1)
-<reversed object at 0x000002A49992D580>
 >>> rev=tuple(reversed(tuple1))
 >>> print(rev)
 (7.56, 44, 62.1, 52, 'lizzi', 'harry', 86.3, 25)
 >>> print("to create a tuple and convert into a list")
 to create a tuple and convert into a list
->>> tuple(("apples",100),("oranges",50))
-Traceback (most recent call last):
-  File "<pyshell#34>", line 1, in <module>
-    tuple(("apples",100),("oranges",50))
-TypeError: tuple expected at most 1 argument, got 2
->>> tuple=(("apples",100),("oranges",50))
->>> list(tuple)
-[('apples', 100), ('oranges', 50)]
 >>> tuple2=(5,1,2,8,"ten",44,"nine")
 >>> print(tuple2)
 (5, 1, 2, 8, 'ten', 44, 'nine')
