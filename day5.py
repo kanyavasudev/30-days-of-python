@@ -12,7 +12,7 @@ def funt(a,b):
 a=int(input("enter number 1:"))
 b=int(input("enter number 2:"))
 funt(a,b)
-
+OUTPUT:
 enter number 1:5
 enter number 2:2
 addition of two numbers is: 7
@@ -28,8 +28,7 @@ def covid(name,temp=98):
     print("body temperature:",temp)
 covid("kanya",100)
 covid("ahana")
-
-
+OUTPUT:
 patient name: kanya
 body temperature: 100
 patient name: ahana
