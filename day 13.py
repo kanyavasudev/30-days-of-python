@@ -84,3 +84,35 @@ class Cafetaria:
         print("Sorry that's not the enough money")
 
 Cafetaria(800, 500, 200, 5)
+OUTPUT:
+What do you want to buy? espresso / latte / cappuccino : 
+report
+
+The coffee machine has: 
+Water : 800 ml
+Milk : 500 ml
+Coffee : 200 g
+Money : $5 
+
+What do you want to buy? espresso / latte / cappuccino : 
+latte
+Please insert the coins : 
+Quarters : 15
+Dimes : 5
+nickles : 17
+pennies : 2
+Here is your latte Enjoy! 
+Here is 2.62 dollars in change
+
+What do you want to buy? espresso / latte / cappuccino : 
+espresso
+Please insert the coins : 
+Quarters : 19
+Dimes : 40
+nickles : 68
+pennies : 23
+Here is your espresso Enjoy! 
+Here is 9.88 dollars in change
+
+What do you want to buy? espresso / latte / cappuccino : 
+
